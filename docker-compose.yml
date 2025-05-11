@@ -19,6 +19,7 @@ services:
     depends_on:
       - mongodb
   frontend:
+    build: ./frontend
 volumes:
   data:
   logs:
